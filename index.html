@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Software developer portfolio showcasing web development, software systems, and cybersecurity projects.">
+    <meta name="keywords" content="Software Developer, Web Developer, PHP, JavaScript, MySQL, Cybersecurity, Kenya">
+    <meta name="author" content="Your Name">
+
+    <meta name="theme-color" content="#0b1120">
+
+    <title>My Portfolio | Software Developer</title>
+
+    <!-- Website Icon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- JavaScript -->
+    <script src="assets/js/projects.js" defer></script>
+    <script src="assets/js/animations.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- =========================
+         PAGE LOADER / BACKGROUND
+    ========================== -->
+
+    <div class="background-glow" aria-hidden="true"></div>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo" aria-label="Portfolio homepage">
+                <span class="logo-bracket">&lt;</span>
+                Dev<span class="logo-highlight">Portfolio</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navMenu">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <a href="#contact" class="nav-cta">
+                        Let's Talk <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        <span class="status-dot"></span>
+                        SOFTWARE DEVELOPER
+                    </span>
+
+                    <h1>
+                        Building Digital
+                        <span class="gradient-text">Solutions</span>
+                        That Matter.
+                    </h1>
+
+                    <p class="hero-description">
+                        Hello, I'm <strong>Your Name</strong>, a software developer
+                        passionate about building modern websites, useful software
+                        systems, and secure digital experiences that solve real-world
+                        problems.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Get In Touch
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span>Connect with me</span>
+
+                        <!-- Replace # with your real profile URLs -->
+                        <a href="https://github.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="mailto:your.email@example.com"
+                           aria-label="Email me">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Hero Visual -->
+                <div class="hero-visual">
+
+                    <div class="hero-orbit orbit-one"></div>
+                    <div class="hero-orbit orbit-two"></div>
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span class="window-title">developer.js</span>
+
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <div class="code-content">
+                            <p>
+                                <span class="code-purple">const</span>
+                                <span class="code-blue">developer</span> = {
+                            </p>
+
+                            <p class="code-indent">
+                                name:
+                                <span class="code-green">'Your Name'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                role:
+                                <span class="code-green">'Software Developer'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                location:
+                                <span class="code-green">'Kenya'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                skills: [
+                                <span class="code-green">'HTML'</span>,
+                            </p>
+
+                            <p class="code-indent code-indent-more">
+                                <span class="code-green">'CSS'</span>,
+                                <span class="code-green">'JavaScript'</span>,
+                            </p>
+
+                            <p class="code-indent code-indent-more">
+                                <span class="code-green">'PHP'</span>,
+                                <span class="code-green">'MySQL'</span>
+                                ],
+                            </p>
+
+                            <p class="code-indent">
+                                passion:
+                                <span class="code-green">'Solving Problems'</span>
+                            </p>
+
+                            <p>};</p>
+
+                            <p class="code-comment">
+                                // Turning ideas into reality.
+                            </p>
+
+                            <p>
+                                <span class="code-purple">return</span>
+                                developer<span class="cursor">_</span>;
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-top">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <div>
+                            <strong>Web Development</strong>
+                            <span>Building for the web</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <div>
+                            <strong>Security Mindset</strong>
+                            <span>Learning every day</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+             QUICK INTRODUCTION
+        ========================== -->
+
+        <section class="intro-strip">
+            <div class="container intro-strip-content">
+                <span>Creative thinking</span>
+                <span class="intro-separator">✦</span>
+                <span>Clean code</span>
+                <span class="intro-separator">✦</span>
+                <span>Practical solutions</span>
+                <span class="intro-separator">✦</span>
+                <span>Continuous learning</span>
+            </div>
+        </section>
+
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">GET TO KNOW ME</span>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>
+                        A developer focused on learning, creating, and solving
+                        meaningful problems through technology.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-visual">
+                        <div class="about-image-wrapper">
+
+                            <!-- Add your photo to assets/images/profile.jpg -->
+                            <img
+                                src="assets/images/profile.jpg"
+                                alt="Portrait of Your Name"
+                                class="profile-image"
+                                loading="lazy"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                            >
+
+                            <div class="profile-placeholder" style="display:none;">
+                                <i class="fa-solid fa-user-astronaut"></i>
+                                <span>Your Photo Here</span>
+                            </div>
+
+                            <div class="about-image-decoration"></div>
+                        </div>
+
+                        <div class="about-badge">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Building. Learning. Improving.</span>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+
+                        <h3>Turning ideas into useful digital products.</h3>
+
+                        <p>
+                            I enjoy designing and developing websites and software
+                            applications that help people, businesses, and
+                            organizations work more effectively.
+                        </p>
+
+                        <p>
+                            My work includes website development, database-driven
+                            applications, school management systems, restaurant
+                            solutions, and authentication security labs.
+                        </p>
+
+                        <p>
+                            I am also developing my knowledge of Linux and
+                            cybersecurity to better understand how applications
+                            work and how they can be protected.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Responsive web development</span>
+                            </div>
+
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Database-driven applications</span>
+                            </div>
+
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Problem-solving mindset</span>
+                            </div>
+
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Continuous technical learning</span>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary">
+                            Work With Me
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             SKILLS SECTION
+        ========================== -->
+
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">MY TOOLKIT</span>
+                    <h2>Technical <span class="gradient-text">Skills</span></h2>
+                    <p>
+                        Technologies and tools I use while building projects
+                        and developing my technical expertise.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon html-icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Semantic and accessible web page structure.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon css-icon">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Responsive layouts, styling, and animations.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon js-icon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive user interfaces and browser logic.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon php-icon">
+                            <i class="fa-brands fa-php"></i>
+                        </div>
+                        <h3>PHP</h3>
+                        <p>Server-side logic and dynamic applications.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon database-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3>MySQL</h3>
+                        <p>Database design, queries, and data management.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon linux-icon">
+                            <i class="fa-brands fa-linux"></i>
+                        </div>
+                        <h3>Linux</h3>
+                        <p>Command-line fundamentals and system administration.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon git-icon">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and project collaboration.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon security-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                        <p>Learning application security and authorized testing.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             PROJECTS SECTION
+        ========================== -->
+
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">MY RECENT WORK</span>
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p>
+                        A selection of projects demonstrating my development
+                        skills and practical learning.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/project-school.jpeg"
+                                alt="School management system project preview"
+                                loading="lazy"
+                            >
+
+                            <span class="project-category">Web Application</span>
+                        </div>
+
+                        <div class="project-content">
+                            <h3>School Management System</h3>
+
+                            <p>
+                                A school administration application designed to
+                                organize students, teachers, classes, and school
+                                records through role-based access.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <!-- Replace # with your actual repository or demo -->
+                            <div class="project-links">
+                                <a href="https://github.com/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                    Source Code
+                                </a>
+
+                                <a href="#contact">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Request Demo
+                                </a>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/project-restaurant.jpeg"
+                                alt="CRAVE Kenya restaurant website project preview"
+                                loading="lazy"
+                            >
+
+                            <span class="project-category">Business Solution</span>
+                        </div>
+
+                        <div class="project-content">
+                            <h3>CRAVE Kenya Restaurant MVP</h3>
+
+                            <p>
+                                A restaurant web application concept featuring
+                                a digital menu, shopping cart, checkout flow,
+                                and administration features for managing orders.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                    Source Code
+                                </a>
+
+                                <a href="#contact">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Request Demo
+                                </a>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <img
+                                src="images/project-auth-lab.jpeg"
+                                alt="Authentication security lab project preview"
+                                loading="lazy"
+                            >
+
+                            <span class="project-category">Security Lab</span>
+                        </div>
+
+                        <div class="project-content">
+                            <h3>Authentication Security Lab</h3>
+
+                            <p>
+                                A local practice application for learning
+                                authentication, password verification, session
+                                management, access control, and authorized
+                                web security testing.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Linux</span>
+                                <span>Burp Suite</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    <i class="fa-brands fa-github"></i>
+                                    Source Code
+                                </a>
+
+                                <a href="#contact">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="projects-footer">
+                    <a href="pages/projects.html" class="btn btn-outline">
+                        View All Projects
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+             SERVICES SECTION
+        ========================== -->
+
+        <section class="section services-section" id="services">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">WHAT I CAN DO</span>
+                    <h2>My <span class="gradient-text">Services</span></h2>
+                    <p>
+                        Practical technology services for individuals,
+                        businesses, and organizations.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <h3>Website Development</h3>
+
+                        <p>
+                            Modern, responsive websites designed to help
+                            businesses establish their online presence.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Discuss Your Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+
+                        <h3>Software Development</h3>
+
+                        <p>
+                            Database-driven applications and business systems
+                            built around specific operational needs.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Discuss Your Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>Database Solutions</h3>
+
+                        <p>
+                            Database structure, data organization, and
+                            application integration for reliable information
+                            management.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Discuss Your Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+
+                        <h3>Security-Focused Development</h3>
+
+                        <p>
+                            Security-conscious application development and
+                            authorized testing within agreed scope and
+                            permissions.
+                        </p>
+
+                        <a href="#contact" class="service-link">
+                            Discuss Your Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             CALL TO ACTION
+        ========================== -->
+
+        <section class="section cta-section">
+            <div class="container">
+
+                <div class="cta-card">
+                    <div class="cta-content">
+                        <span class="section-label">HAVE A PROJECT IN MIND?</span>
+
+                        <h2>
+                            Let's Build Something
+                            <span class="gradient-text">Meaningful.</span>
+                        </h2>
+
+                        <p>
+                            Have a website idea, a software challenge, or a
+                            project you'd like to discuss? Let's explore how
+                            technology can help.
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">
+                            Start a Conversation
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </div>
+
+                    <div class="cta-decoration" aria-hidden="true">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+             CONTACT SECTION
+        ========================== -->
+
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">GET IN TOUCH</span>
+                    <h2>Let's <span class="gradient-text">Connect</span></h2>
+                    <p>
+                        Tell me about your project, business idea, or
+                        collaboration opportunity.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+                        <h3>Let's talk about your next idea.</h3>
+
+                        <p>
+                            I'm interested in discussing software projects,
+                            website development, and opportunities to learn
+                            and collaborate.
+                        </p>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:your.email@example.com">
+                                    aliabel900@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>Location</span>
+                                <p>Mombasa, Kenya</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+
+                            <div>
+                                <span>GitHub</span>
+                                <a href="https://github.com/"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                    View my repositories
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- This form needs a backend or form service to send messages -->
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    autocomplete="name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What would you like to discuss?"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell me a little about your project..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+
+                        <p class="form-status" id="formStatus" role="status"
+                           aria-live="polite"></p>
+
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <a href="#home" class="logo">
+                    <span class="logo-bracket">&lt;</span>
+                    Dev<span class="logo-highlight">Portfolio</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </a>
+
+                <p>
+                    Building useful digital experiences through code,
+                    creativity, and continuous learning.
+                </p>
+
+                <div class="footer-socials">
+                    <a href="https://github.com/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="mailto:your.email@example.com"
+                       aria-label="Email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="currentYear">2026</span>
+                    Your Name. All rights reserved.
+                </p>
+
+                <a href="#home" class="back-to-top">
+                    Back to top
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
